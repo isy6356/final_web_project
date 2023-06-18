@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Stylish&display=swap');
+
+
+/* 네비게이션 영역 */
+.nav-link:hover{
+    font-weight:bold;
+}
+.navbar{
+    font-family: 'Diphylleia', serif;
+}
+
+
+/* 카드 영역 */
+.container{
+    font-family: 'Stylish', sans-serif;
+}
+.card-title{
+    font-size:200%;
+}
+.card-text{
+    font-size:150%;
+}
+.card-img-top:hover {
+    transform:scale(1.1)
+}
+.card-img-top{
+    transition: transform 0.7s;
+}
+
+/* 배경 */
+body{
+    background-color: rgba(147, 130, 130, 0.2)
+}
+
+/* 배너 영역 */
+.banner {
+    background-image: url(images/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
